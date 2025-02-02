@@ -1,4 +1,4 @@
-fetch("./gsc_rust_wasm_101-optimized.wasm")
+fetch("./gsc_rust_wasm_101.wasm")
 	.then((response) => response.arrayBuffer())
 	.then((butter) => {
 		console.log("butter", butter);
